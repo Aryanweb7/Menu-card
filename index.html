@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+    <link rel="stylesheet" href="cafe_menu.css">
+</head>
+<body>
+    <header>
+        <h1>Our Restaurant Menu</h1>
+        <p>Select a category to view items</p>
+        <nav>
+            <button onclick="filterMenu('all')">All</button>
+            <button onclick="filterMenu('Mojito')">Mojito</button>
+            <button onclick="filterMenu('Salad-Bowls')">Salad Bowls</button>
+            <button onclick="filterMenu('Rice-Bowls')">Rice Bowls</button>
+            <button onclick="filterMenu('Pizzas')">Pizzas</button>
+            <button onclick="filterMenu('Wine-Pastas')">Wine Pastas</button>
+            <button onclick="filterMenu('Quick-Bites')">Quick Bites</button>
+        </nav>
+    </header>
+    
+    <main id="menu">
+        <!-- Mojito Items -->
+        <div class="menu-item Mojito">
+            <h3>Classic Mojito</h3>
+            <p># Discription</p>
+            <p class="price">Rs160.00</p>
+        </div>
+        <div class="menu-item Mojito">
+            <h3>Watermelon Mojito</h3>
+            <p># Discription</p>
+            <p class="price">Rs180.00</p>
+        </div>
+
+        <!-- Salad Bowls Items -->
+        <div class="menu-item Salad-Bowls">
+            <h3>Greek Salad Bowl</h3>
+            <p>Iceberg, Lettuce, Diced Bell Peppers & Grilled Cherry Tomatoes tossed in Balsamic 
+                & Worcestershine sauce dressing topped with Cream Cheese</p>
+            <p class="price">Rs220.00</p>
+        </div>
+        <div class="menu-item Salad-Bowls">
+            <h3>Green Goddess Bowl </h3>
+            <p># Description</p>
+            <p class="price">Rs250.00</p>
+        </div>
+
+        <!-- Rice Bowls Items -->
+        <div class="menu-item Rice-Bowls">
+            <h3>Thai Coconut Curry(Red/Green)</h3>
+            <p># Description</p>
+            <p class="price">Rs280.00/300.00</p>
+        </div>
+        <div class="menu-item Rice-Bowls">
+            <h3>Veg Paprika Curry</h3>
+            <p># Description</p>
+            <p class="price">Rs280.00</p>
+        </div>
+
+        <!-- Pizzas -->
+        <div class="menu-item Pizzas">
+            <h3>Classic Margherita</h3>
+            <p># Description</p>
+            <p class="price">Rs250.00</p>
+        </div>
+        <div class="menu-item Pizzas">
+            <h3>Mushroom Chilly</h3>
+            <p># Description</p>
+            <p class="price">Rs280.00</p>
+        </div>
+
+        <!-- Wine Pastas -->
+        <div class="menu-item Wine-Pastas">
+            <h3>Fusilli Le Blanc</h3>
+            <p># Description</p>
+            <p class="price">Rs260.00</p>
+        </div>
+        <div class="menu-item Wine-Pastas">
+            <h3>Spicy Pepper</h3>
+            <p># Description</p>
+            <p class="price">Rs200.00</p>
+        </div>
+
+        <!-- Quick Bites -->
+        <div class="menu-item Quick-Bites">
+                <h3>French Fries</h3>
+                <p># Description</p>
+                <p class="price">Rs180.00</p>
+        </div>
+        <div class="menu-item Quick-Bites">
+                <h3>Cheese Chilly Toast</h3>
+                <p># Description</p>
+                <p class="price">Rs220.00</p>
+        </div>
+    </main>
+
+    <script src="cafe_menu.js"></script>
+</body>
+</html>
